@@ -10,7 +10,7 @@ class AutoThx(loader.Module):
         "name": "AutoThx"
     }
 
-    def init(self):
+    def __init__(self):
         self.config = loader.ModuleConfig(
                 loader.ConfigValue(
                     "status",
